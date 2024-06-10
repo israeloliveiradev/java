@@ -18,6 +18,7 @@ public class Exerci01 {
 		// Adicionando Cores
 		for (int index = 0; index < 5; index++) {
 			System.out.printf("Digite a %d° cor: ", (index +1));
+			input.skip("\\R?");
 			listaCores.add(input.nextLine());
 		}
 
