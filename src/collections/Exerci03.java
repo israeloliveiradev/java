@@ -31,6 +31,7 @@ public class Exerci03 {
 		if (!encontrado) {
 			System.out.printf("\nO número %d não foi encontrado", search);
 		}
+
 		input.close();
 	}
 }
