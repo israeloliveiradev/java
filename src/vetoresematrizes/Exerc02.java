@@ -7,6 +7,7 @@ public class Exerc02 {
 
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
+		
 		Scanner sc = new Scanner(System.in);
 
 
@@ -23,6 +24,8 @@ public class Exerc02 {
 			numbersList[index] = sc.nextInt();
 			sum = sum + numbersList[index];
 			average = (double) sum / 10;
+
+			
 		}
 
 		for (index = 0; index < numbersList.length; index++) {
