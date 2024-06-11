@@ -42,7 +42,8 @@ public class Exercic01 {
 
 			case 1:
 				System.out.printf("\nNome: ");
-				adicionar = input.next();
+				input.nextLine();
+				adicionar = input.nextLine();
 				System.out.printf("\n%s Adicionado a Lista de Clientes com sucesso :)", adicionar , fila.add(adicionar));
 				System.out.printf("\n" + fila);
 				break;
