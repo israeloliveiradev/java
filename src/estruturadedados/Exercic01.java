@@ -5,6 +5,8 @@ import java.util.Locale;
 import java.util.Queue;
 import java.util.Scanner;
 
+
+
 public class Exercic01 {
 
 	public static void main(String[] args) {
@@ -32,6 +34,8 @@ public class Exercic01 {
 			System.out.println("*       0 - Sair                               *");
 			System.out.println("*                                              *");
 			System.out.println("************************************************");
+
+
 
 
 			while (opcao != 0) {

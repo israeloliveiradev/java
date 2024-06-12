@@ -6,10 +6,13 @@ import java.util.Stack;
 public class Exerci02 {
 
 	public static void main(String[] args) {
+
 		Stack<String> pilha = new Stack<String>();
 
 		Scanner input = new Scanner(System.in);
+
 		int opcao = -1;
+
 		String adicionar;
 
 		pilha.push("Pai Rico Pai Pobre");
