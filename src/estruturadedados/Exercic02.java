@@ -3,7 +3,7 @@ package estruturadedados;
 import java.util.Scanner;
 import java.util.Stack;
 
-public class Exerci02 {
+public class Exercic02 {
 
 	public static void main(String[] args) {
 
